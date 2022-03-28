@@ -188,6 +188,6 @@ nnoremap <leader>gc :GBranches<CR>
 
 " Coc
 nmap <leader>gd :call CocActionAsync("jumpDefinition")<CR>
-" nmap <leader>jf :call CocActionAsync("jumpDefinition")<CR>
+nmap <leader>gf :call CocFix<CR>
 
 source /home/levi/dotfiles/.config/nvim/plugins/telescope.vim
